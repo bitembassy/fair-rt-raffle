@@ -4,10 +4,11 @@ const request = require('superagent')
 
 const blockhash = Buffer.from(process.argv[2], 'hex')
     , tweetid = process.argv[3]
+    , archive_time = process.argv[4]
 
 const makeTicket = name => createHmac('sha256', blockhash).update(name).digest('hex')
 
-request(`https://twitter.com/i/activity/retweeted_popup?id=${ tweetid }`)
+request(`http://web.archive.org/web/${archive_time}if_/https://twitter.com/i/activity/retweeted_popup?id=${tweetid}`)
   .then(res =>  {
     const $ = cheerio.load(res.body.htmlUsers)
 
