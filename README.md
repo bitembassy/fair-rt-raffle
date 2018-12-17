@@ -13,6 +13,8 @@ An implementation of the code used to determine the winners order
 is available at `raffle.js`. It can be invoked as follow:
 
 ```bash
+$ git clone https://gist.github.com/de2b8db6ce59fafcec7a8480a55ffaec party-raffle && cd party-raffle
+$ npm install
 $ node raffle.js <blockhash> <tweetid> <archive date>
 ```
 
