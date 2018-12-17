@@ -10,12 +10,12 @@ If the winner won't respond to us within NNN or is otherwise unable to take the 
 we'll go on to the next lowest hash, until we find someone who does.
 
 An implementation of the code used to determine the winners order
-is available at `raffle.js`. It can be invoked as follow:
+is available at `raffle.js`. It can be invoked as follows:
 
 ```bash
 $ git clone https://gist.github.com/de2b8db6ce59fafcec7a8480a55ffaec party-raffle && cd party-raffle
 $ npm install
-$ node raffle.js <blockhash> <tweetid> <archive date>
+$ node raffle.js <blockhash> <tweetid> <archive time>
 ```
 
 For example:
@@ -29,5 +29,7 @@ $ node raffle.js 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26
 ...
 ```
 
+The list of screen names will be determined by the web archive,
+even if different than what shows up on twitter.
 In case the textual description of the algorithm results
 in different ordering than the code, the code wins.
