@@ -14,9 +14,17 @@ is available at `raffle.js`. It can be invoked as follow:
 
 ```bash
 $ node raffle.js <blockhash> <tweetid> <archive date>
+```
 
-# for example:
+For example:
+
+```
 $ node raffle.js 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f 1074323991261782016 20181217212353
+
+#1  293151d35d90f17b22a4ca8aafced9cb52e29c0df1aaa27a05255d18119b48b3  _drgo
+#2  4ee31014ed751741e016662ae3d467483c7209c4bc904a940c65d80231571733  LamassuBTC
+#3  55e21aa9404f7f26b096bc6d5f0a961757f9caf563dda9a86d413c4641fadebc  zysman
+...
 ```
 
 In case the textual description of the algorithm results
