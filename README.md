@@ -3,7 +3,7 @@
 On XXX, we'll make a snapshot of the list of screen names who retweeted [this tweet](YYY)
 using the [web archive](https://web.archive.org/) (for [this url](https://twitter.com/i/activity/retweeted_popup?id=YYY)).
 
-On block #ZZZ (around TTT), we'll HMAC each screen name using the hash of block #ZZZ as the key,
+On block #ZZZ (around TTT), we'll HMAC-SHA256 each screen name using the hash of block #ZZZ as the key,
 order the hashes lexicographically, and the lowest hash wins!
 
 If the winner won't respond to us within NNN or is otherwise unable to take the prize,
