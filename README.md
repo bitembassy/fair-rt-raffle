@@ -6,9 +6,7 @@ To select a winner, on December 24th at 10AM UTC, we'll take a snapshot of the l
 
 On block #555256, around midnight that day, we'll HMAC-SHA256 each screen name using the hash of the block as the key, order the hashes lexicographically and the lowest hash wins!
 
-If the winner won't respond to us within 2 days or is otherwise unable to claim the prize, we'll go on to the next lowest hash, until we find someone who does.
-
-Find everything about the party on [meetup.com](https://www.meetup.com/bitcoin-il/events/256908356/) or [Facebook](https://www.facebook.com/events/1994274880660738/). The winner will be announced on [Twitter](https://twitter.com/BitcoinIL).
+Find out everything about the party on [meetup.com](https://www.meetup.com/bitcoin-il/events/256908356/) or [Facebook](https://www.facebook.com/events/1994274880660738/). The winner will be announced on [Twitter](https://twitter.com/BitcoinIL).
 
 
 An implementation of the code used to determine the winners order
@@ -31,6 +29,7 @@ $ node raffle.js 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26
 ...
 ```
 
+* If the winner won't respond to us within 2 days or is otherwise unable to claim the prize, we'll go on to the next lowest hash, until we find someone who does.
 * The list of screen names will be determined by the web archive, even if different than what shows up on twitter.
 * In case the textual description of the algorithm results in different ordering than the code, the code wins.
 * If block #555256 is somehow mined before the snapshot, we will use block #555400 instead.
