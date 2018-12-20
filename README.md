@@ -1,8 +1,10 @@
 # Bitcoin 10th anniversary party in TLV - provably fair raffle
 
+We are giving away a flight tickect to TLV and back, from anywhere in the world, to come join us for an epic Bitcoin 10th anniversary party on January 3ed.
+
 To select a winner, on December 24th at 10AM UTC, we'll take a snapshot of the list of screen names who retweeted [this tweet](YYY) using the [web archive](https://web.archive.org/) (for [this url](https://twitter.com/i/activity/retweeted_popup?id=YYY)).
 
-On block #555256, we'll HMAC-SHA256 each handle using the hash of the block as the key, order the hashes lexicographically, and - the lowest hash wins a flight ticket to TLV and back from anywhere in the world!
+On block #555256, around midnight that day, we'll HMAC-SHA256 each screen name using the hash of the block as the key, order the hashes lexicographically and the lowest hash wins!
 
 If the winner won't respond to us within 2 days or is otherwise unable to claim the prize, we'll go on to the next lowest hash, until we find someone who does.
 
