@@ -2,11 +2,11 @@
 
 We are giving away a flight ticket to Tel Aviv and back, from anywhere in the world, to come join us for an epic Bitcoin 10th anniversary party on January 3rd.
 
-To select a winner, on December 24th at 10AM UTC, we'll take a snapshot of the list of screen names who retweeted [this tweet](YYY) using the [web archive](https://web.archive.org/) (for [this url](https://twitter.com/i/activity/retweeted_popup?id=YYY)).
+To select a winner, on December 24th at 10AM UTC, we'll take a snapshot of the list of screen names who retweeted [this tweet](https://twitter.com/BitcoinemBassy/status/1075782834936254465) using the [web archive](https://web.archive.org/) (for [this url](https://twitter.com/i/activity/retweeted_popup?id=1075782834936254465)).
 
 On block #555256, around midnight that day, we'll HMAC-SHA256 each screen name using the hash of the block as the key, order the hashes lexicographically and the lowest hash wins!
 
-Find out everything about the party on [meetup.com](https://www.meetup.com/bitcoin-il/events/256908356/) or [Facebook](https://www.facebook.com/events/1994274880660738/). The winner will be announced on [Twitter](https://twitter.com/BitcoinIL).
+Find out everything about the party on [meetup.com](https://www.meetup.com/bitcoin-il/events/256908356/) or [Facebook](https://www.facebook.com/events/1994274880660738/). The winner will be announced on [Twitter](https://twitter.com/BitcoinemBassy).
 
 
 An implementation of the code used to determine the winners order
