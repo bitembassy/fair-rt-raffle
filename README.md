@@ -1,6 +1,6 @@
 # Bitcoin 10th anniversary party in TLV - provably fair raffle
 
-We are giving away a flight ticket to TLV and back, from anywhere in the world, to come join us for an epic Bitcoin 10th anniversary party on January 3rd.
+We are giving away a flight ticket to Tel Aviv and back, from anywhere in the world, to come join us for an epic Bitcoin 10th anniversary party on January 3rd.
 
 To select a winner, on December 24th at 10AM UTC, we'll take a snapshot of the list of screen names who retweeted [this tweet](YYY) using the [web archive](https://web.archive.org/) (for [this url](https://twitter.com/i/activity/retweeted_popup?id=YYY)).
 
