@@ -1,13 +1,13 @@
 # Bitcoin 10th anniversary party in TLV - provably fair raffle
 
-On XXX, we'll make a snapshot of the list of screen names who retweeted [this tweet](YYY)
-using the [web archive](https://web.archive.org/) (for [this url](https://twitter.com/i/activity/retweeted_popup?id=YYY)).
+To select a winner, on December 24th at 10AM UTC, we'll take a snapshot of the list of screen names who retweeted [this tweet](YYY) using the [web archive](https://web.archive.org/) (for [this url](https://twitter.com/i/activity/retweeted_popup?id=YYY)).
 
-On block #ZZZ (around TTT), we'll HMAC-SHA256 each screen name using the hash of block #ZZZ as the key,
-order the hashes lexicographically, and the lowest hash wins!
+On block #555256, we'll HMAC-SHA256 each handle using the hash of the block as the key, order the hashes lexicographically, and - the lowest hash wins a flight ticket to TLV and back from anywhere in the world!
 
-If the winner won't respond to us within NNN or is otherwise unable to take the prize,
-we'll go on to the next lowest hash, until we find someone who does.
+If the winner won't respond to us within 2 days or is otherwise unable to claim the prize, we'll go on to the next lowest hash, until we find someone who does.
+
+Find everything about the party on [meetup.com](https://www.meetup.com/bitcoin-il/events/256908356/) or [Facebook](https://www.facebook.com/events/1994274880660738/). The winner will be announced on [Twitter](https://twitter.com/BitcoinIL).
+
 
 An implementation of the code used to determine the winners order
 is available at `raffle.js`. It can be invoked as follows:
@@ -29,7 +29,6 @@ $ node raffle.js 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26
 ...
 ```
 
-The list of screen names will be determined by the web archive,
-even if different than what shows up on twitter.
-In case the textual description of the algorithm results
-in different ordering than the code, the code wins.
+* The list of screen names will be determined by the web archive, even if different than what shows up on twitter.
+* In case the textual description of the algorithm results in different ordering than the code, the code wins.
+* If block #555256 is somehow mined before the snapshot, we will use block #555400 instead.
