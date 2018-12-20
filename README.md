@@ -34,3 +34,5 @@ $ node raffle.js 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26
 * The list of screen names will be determined by the web archive, even if different than what shows up on twitter.
 * In case the textual description of the algorithm results in different ordering than the code, the code wins.
 * If block #555256 is somehow mined before the snapshot, we will use block #555400 instead.
+
+Hope to see you with us :) Good luck!!!
