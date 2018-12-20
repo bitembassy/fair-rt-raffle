@@ -12,7 +12,7 @@ Find everything about the party on [meetup.com](https://www.meetup.com/bitcoin-i
 
 
 An implementation of the code used to determine the winners order
-is available at `raffle.js`. It can be invoked as follows:
+is available at [`raffle.js`](https://github.com/bitembassy/fair-rt-raffle/blob/master/raffle.js). It can be invoked as follows:
 
 ```bash
 $ git clone https://github.com/bitembassy/fair-rt-raffle && cd fair-rt-raffle
